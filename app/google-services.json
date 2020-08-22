@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "261079500178",
+    "firebase_url": "https://profectmon.firebaseio.com",
+    "project_id": "profectmon",
+    "storage_bucket": "profectmon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261079500178:android:00488d9619a2d9d6",
+        "android_client_info": {
+          "package_name": "com.example.alifdeltaforce.monitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261079500178-lihgnl03lg1kl1to4so50j70a9j3ac6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alifdeltaforce.monitoring",
+            "certificate_hash": "3b2515d0c77c543209167021d79d0479586f0aa1"
+          }
+        },
+        {
+          "client_id": "261079500178-ct1vrti790p1idenrunn756ok9c9je01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA87Te8O-DkBX3SwZQkhHL8T-m9oO0RiLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261079500178-ct1vrti790p1idenrunn756ok9c9je01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

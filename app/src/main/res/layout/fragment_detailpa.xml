@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alifdeltaforce.monitoring.DetailpaFragment">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/TextEmptry"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="No Information"
+        android:visibility="invisible"
+        android:textSize="20dp"
+        android:textColor="@color/bg_login"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/p_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/push_button"
+        android:layout_width="69dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:background="@drawable/cb"
+        android:padding="15dp"
+        android:text="ADD"
+         />
+
+
+</FrameLayout>

@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alifdeltaforce.monitoring.AddpFragment"
+    android:background="@color/textbox">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:layout_margin="15dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="111dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_kkk"
+                tools:layout_editor_absoluteY="14dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.46" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="194dp"
+            android:background="@drawable/form"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="201dp">
+
+            <EditText
+                android:id="@+id/IDpatient"
+                style="@style/editText_atyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.15"
+                android:background="@color/textbox2"
+                android:ems="10"
+                android:hint="ID People"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Namepatient"
+                style="@style/editText_atyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.11"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Agepatient"
+                style="@style/editText_atyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/textbox2"
+                android:layout_weight="0.18"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/BirthDaypatient"
+                style="@style/editText_atyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.21"
+                android:ems="10"
+                android:hint="Birth Day"
+                android:inputType="date"
+                android:textStyle="bold" />
+
+
+            <!-- Link to Login Screen -->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Save_Datapatient"
+            style="?android:textAppearanceSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Save"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

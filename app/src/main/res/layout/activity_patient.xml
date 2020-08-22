@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alifdeltaforce.monitoring.PatientActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.11"
+            android:src="@drawable/logoapp" />
+
+
+
+        <EditText
+            android:id="@+id/PPID"
+            style="@style/editText_atyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.15"
+            android:ems="10"
+            android:hint="INSERT YOUR ID"
+            android:inputType="textEmailAddress" />
+
+
+        <Button
+            android:id="@+id/C_ID"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="SUMIT"
+            android:onClick="Connection"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.29"
+            android:onClick="ToMain"
+            android:text="Click this!!! If you are Amin"
+            android:textAlignment="center"
+            android:textColor="@color/btn_login_bg"
+            tools:ignore="OnClick" />
+
+
+        <!-- Link to Login Screen -->
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
